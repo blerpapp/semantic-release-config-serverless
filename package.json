@@ -1,0 +1,16 @@
+{
+  "name": "@blerpapp/semantic-release-config-serverless",
+  "version": "1.0.0",
+  "description": "semantic-release config to deploy projects from GitLab using GitLab CI and the Serverless framework",
+  "main": "index.js",
+  "repository": "https://github.com/blerpapp/semantic-release-config-serverless",
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@semantic-release/exec": "^1.0.2",
+    "@semantic-release/git": "^2.0.2",
+    "@semantic-release/gitlab": "^1.0.2",
+    "@semantic-release/npm": "^2.6.4"
+  }
+}
