@@ -1,6 +1,6 @@
 {
   "name": "@blerpapp/semantic-release-config-serverless",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "semantic-release config to deploy projects from GitLab using GitLab CI and the Serverless framework",
   "main": "index.js",
   "repository": "https://github.com/blerpapp/semantic-release-config-serverless",
