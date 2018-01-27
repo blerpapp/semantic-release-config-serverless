@@ -32,9 +32,9 @@
     p-reduce "^1.0.0"
     semver "^5.4.1"
 
-"@semantic-release/gitlab@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-1.0.2.tgz#46c25d79d484c936cd0da78eff84650c32525d85"
+"@semantic-release/gitlab@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-2.0.0.tgz#5f66badb0611ad54aa502c99b8b3304f709309e9"
   dependencies:
     "@semantic-release/error" "^2.1.0"
     debug "^3.1.0"
