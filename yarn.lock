@@ -16,21 +16,18 @@
     lodash "^4.17.4"
     parse-json "^4.0.0"
 
-"@semantic-release/git@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-2.0.2.tgz#00f82f338999820cf54beb8e9e3acdd5b160f571"
+"@semantic-release/git@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-3.0.0.tgz#8e2fb02672e83c878376717d3185e1365d204599"
   dependencies:
     "@semantic-release/error" "^2.1.0"
     debug "^3.1.0"
     dir-glob "^2.0.0"
     execa "^0.9.0"
     fs-extra "^5.0.0"
-    git-url-parse "^7.0.1"
     lodash "^4.17.4"
     micromatch "^3.1.4"
-    p-locate "^2.0.0"
     p-reduce "^1.0.0"
-    semver "^5.4.1"
 
 "@semantic-release/gitlab@^1.0.2":
   version "1.0.2"
@@ -521,19 +518,6 @@ getpass@^0.1.1:
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
-
-git-up@^2.0.0:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/git-up/-/git-up-2.0.10.tgz#20fe6bafbef4384cae253dc4f463c49a0c3bd2ec"
-  dependencies:
-    is-ssh "^1.3.0"
-    parse-url "^1.3.0"
-
-git-url-parse@^7.0.1:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-7.0.2.tgz#75fc7ae08e5daa90edc59043cdfa8da57c5a8715"
-  dependencies:
-    git-up "^2.0.0"
 
 got@^8.0.1:
   version "8.0.2"
@@ -1102,18 +1086,6 @@ p-is-promise@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
 
-p-limit@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-1.2.0.tgz#0e92b6bedcb59f022c13d0f1949dc82d15909f1c"
-  dependencies:
-    p-try "^1.0.0"
-
-p-locate@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
-  dependencies:
-    p-limit "^1.1.0"
-
 p-reduce@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-reduce/-/p-reduce-1.0.0.tgz#18c2b0dd936a4690a529f8231f58a0fdb6a47dfa"
@@ -1123,10 +1095,6 @@ p-timeout@^2.0.1:
   resolved "https://registry.yarnpkg.com/p-timeout/-/p-timeout-2.0.1.tgz#d8dd1979595d2dc0139e1fe46b8b646cb3cdf038"
   dependencies:
     p-finally "^1.0.0"
-
-p-try@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/p-try/-/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
 
 parse-json@^4.0.0:
   version "4.0.0"
@@ -1138,13 +1106,6 @@ parse-json@^4.0.0:
 parse-path@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/parse-path/-/parse-path-3.0.2.tgz#4686980f0b262ee2dbb9a64eef739c91edc85245"
-  dependencies:
-    is-ssh "^1.3.0"
-    protocols "^1.4.0"
-
-parse-url@^1.3.0:
-  version "1.3.11"
-  resolved "https://registry.yarnpkg.com/parse-url/-/parse-url-1.3.11.tgz#57c15428ab8a892b1f43869645c711d0e144b554"
   dependencies:
     is-ssh "^1.3.0"
     protocols "^1.4.0"
@@ -1306,7 +1267,7 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, 
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-"semver@2 >=2.2.1 || 3.x || 4 || 5", "semver@2 || 3 || 4 || 5", semver@^5.1.0, semver@^5.4.1:
+"semver@2 >=2.2.1 || 3.x || 4 || 5", "semver@2 || 3 || 4 || 5", semver@^5.1.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
 
