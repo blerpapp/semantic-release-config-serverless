@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@semantic-release/exec": "^1.0.2",
-    "@semantic-release/git": "^2.0.2",
-    "@semantic-release/gitlab": "^1.0.2",
-    "@semantic-release/npm": "^2.6.4"
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/gitlab": "^6.0.0",
+    "@semantic-release/npm": "^7.0.0"
   }
 }
